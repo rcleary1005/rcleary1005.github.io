@@ -1,16 +1,13 @@
-table { 
-	border-collapse: 	collapse; 
+/* css for header */
+header {
+  background-color: #80b3ff;
+  text-align: center;
+  padding: 20px;
 }
-table, tr, td, th { 
-	padding: 			10px; 
-	border:				solid 1px black;
+
+/* css for footer */
+footer {
+  background-color: #80b3ff;
+  text-align: center;
+  padding: 10px;
 }
-tr {
-	vertical-align: 	top;
-}
-th {
-	background-color: 	#80b3ff;
-	color: 				black;
-}
-tr:nth-child(odd)		{ background-color: #b3d1ff; }
-tr:nth-child(even)		{ background-color: white }
